@@ -4,6 +4,8 @@
 # --------------------------------
 # author    : SonyaCore
 #	      https://github.com/SonyaCore
+#
+# licence   : https://www.gnu.org/licenses/gpl-3.0.en.html
 
 # Global Variables:
 shopt -s nullglob
