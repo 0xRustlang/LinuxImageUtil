@@ -11,6 +11,9 @@
 shopt -s nullglob
 title="Welcome to Linux Image Utility (LinuxImageUtil) Program"
 
+# Set Sleep For Loading Terminal Emulattor Currectly
+sleep 1.5
+
 # $TERM variable may be missing when called via desktop shortcut
 CurrentTERM=$(env | grep TERM)
 if [[ $CurrentTERM == "" ]] ; then
